@@ -1,7 +1,7 @@
 TYPO3 Fluid Standalone
 ======================
 
-A standalone version of Fluid, the template engine of the TYPO3 Flow PHP Framework
+A standalone version of Fluid, the template engine of the TYPO3 Flow PHP Framework. Based on the current TYPO3 Flow 2.0 Beta 1
 
 Setup
 -----
@@ -69,14 +69,22 @@ Unsupported View Helpers
 
 Due to the lack of TYPO3 Flow there are a few ViewHelpers that are not available:
 
-* Form
-* Link
-* Security
-* Uri
+* f:debug
+* f:form.*
+* f:format.identifier
+* f:link.action
+* f:link.widget
+* f:widget.*
+* f:renderChildren
+* f:security
+* f:uri.action
+* f:uri.resource
 
 
 Official Manual
 ---------------
+
+To learn more about Fluid visit the official documention:
 
 [Views in TYPO3 Flow using Fluid](http://docs.typo3.org/flow/TYPO3FlowDocumentation/TheDefinitiveGuide/PartII/View.html)  
 [Fluid ViewHelper Reference](http://docs.typo3.org/flow/TYPO3FlowDocumentation/TheDefinitiveGuide/PartV/FluidViewHelperReference.html)
